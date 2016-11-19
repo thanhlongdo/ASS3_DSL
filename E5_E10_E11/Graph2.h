@@ -42,6 +42,7 @@ public:
 	int positionofNode(int data);
 private:
 	void supportforPrinbyBFS(int data);
+	void resetVisit();
 };
 
 class nodequeue
